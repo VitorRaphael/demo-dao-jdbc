@@ -9,7 +9,7 @@ public interface SellerDao {
 
     void insert (Seller obj);
     void update (Seller obj);
-    void deleteById(Seller id);
+    void deleteById(Integer id);
     Seller findById (Integer id); // Pega esse id e consulta no banco de dados um objeto com esse id
 
     // Vai retornar todos os departamentos
