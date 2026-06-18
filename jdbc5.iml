@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="JavaSE-11" jdkType="JavaSDK" />
     <orderEntry type="library" name="MySQLConnector" level="project" />
+    <orderEntry type="library" name="mysql-connector-j-9.7.0 (2)" level="project" />
   </component>
 </module>
