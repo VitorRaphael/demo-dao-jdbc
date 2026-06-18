@@ -24,13 +24,13 @@ public class Seller implements Serializable {
     }
 
     // Construtor com argumentos
-    public Seller(Integer id, Department department, Double baseSalary, String email, Date birthDate, String name) {
+    public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Department department) {
         this.id = id;
-        this.department = department;
-        this.baseSalary = baseSalary;
+        this.name = name;
         this.email = email;
         this.birthDate = birthDate;
-        this.name = name;
+        this.baseSalary = baseSalary;
+        this.department = department;
     }
 
     // Getters e Setters
